@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+    <!--menuicon_layoutをincludeする-->
+    <include layout="@layout/menuicon_layout" android:id="@+id/colomn1"
+        android:visibility="invisible"></include>
+
+    <!--menuicon_layoutをincludeする-->
+    <include layout="@layout/menuicon_layout" android:id="@+id/colomn2"
+        android:visibility="invisible"></include>
+
+    <!--menuicon_layoutをincludeする-->
+    <include layout="@layout/menuicon_layout" android:id="@+id/colomn3"
+        android:visibility="invisible"></include>
+
+    <!--menuicon_layoutをincludeする-->
+    <include layout="@layout/menuicon_layout" android:id="@+id/colomn4"
+        android:visibility="invisible"></include>
+
+    <!--列を増やす場合はmenuicon_layoutをincludeする-->
+</TableRow>
