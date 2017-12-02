@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/notification_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#A0F0A0"
+        >
+        <android.support.design.widget.TabItem
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout="@layout/tab1"
+            />
+        <android.support.design.widget.TabItem
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout="@layout/tab2"
+            />
+
+    </android.support.design.widget.TabLayout>
+    <!--
+        The contents area.
+    -->
+</LinearLayout>

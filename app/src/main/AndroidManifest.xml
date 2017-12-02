@@ -13,11 +13,7 @@
 
             android:screenOrientation="portrait"
             >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Next"
             android:screenOrientation="portrait">
@@ -26,6 +22,14 @@
         <activity android:name=".Next2"
             android:screenOrientation="portrait">
 
+        </activity>
+        <activity android:name=".TabFramActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
